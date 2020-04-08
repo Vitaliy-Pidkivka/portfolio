@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Slogan.module.scss';
 
 
-function Slogan() {
+function Slogan(props) {
     return (
             <div className={styles.slogan}>
 
