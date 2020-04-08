@@ -46,6 +46,11 @@ function Skills() {
                             skill="CSS"
                             description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, recusandae."
                         />
+                        <Skill
+                            iconSrc="https://www.pinclipart.com/picdir/big/35-353932_bootstrap-bootstrap-4-logo-png-clipart.png"
+                            skill="Bootstrap"
+                            description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, recusandae."
+                        />
 
                     </div>
                 </div>

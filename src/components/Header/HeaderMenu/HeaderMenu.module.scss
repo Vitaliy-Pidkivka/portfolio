@@ -2,7 +2,11 @@
   display: flex;
   list-style: none;
   flex-wrap: wrap;
+  padding-left: 0;
   li{
     padding: 0 15px;
+    a{
+      text-decoration: none;
+    }
   }
 }
