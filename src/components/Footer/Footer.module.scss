@@ -1,4 +1,17 @@
 .footer {
   min-height: 300px;
   background-color: #3dffbc;
+  &__inner{
+    text-align: center;
+  }
+  &__social-networks{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 470px;
+  }
+  &__btn{
+    margin: 10px ;
+  }
+  &__copyright{}
 }

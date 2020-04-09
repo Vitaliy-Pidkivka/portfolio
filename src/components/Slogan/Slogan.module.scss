@@ -1,4 +1,12 @@
 .slogan {
   min-height: 250px;
   background-color: #fff6be;
+  &__inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  &__btn{
+    text-align: center;
+  }
 }
