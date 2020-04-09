@@ -1,4 +1,62 @@
 .contacts {
   min-height: 100vh;
   background-color: #ffcf74;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__inner {
+
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 400px;
+    margin: 0 auto;
+
+    input, textarea {
+
+      margin-bottom: 15px;
+      border: none;
+      padding: 8px 5px;
+      box-shadow: 0 0 4px black;
+      border-radius: 4px;
+
+      &::-webkit-input-placeholder {
+        color: black;
+        opacity: 1;
+      }
+
+      &:focus::-webkit-input-placeholder {
+        color: transparent;
+        opacity: 0;
+      }
+
+      &:focus {
+        box-shadow: 0 0 10px blue;
+      }
+
+      &[type*="submit"] {
+        cursor: pointer;
+        min-width: 200px;
+        margin: 0 auto;
+        margin-top: 50px;
+
+        &:hover {
+          background-color: #09e4e6;
+          box-shadow: 0 0 4px blue;
+        }
+      }
+    }
+
+    input {
+    }
+
+    textarea {
+      resize: none;
+      min-height: 100px;
+    }
+  }
 }
