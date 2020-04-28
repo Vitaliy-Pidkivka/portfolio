@@ -4,7 +4,7 @@ import Title from "../Shared/Title/Title";
 import Skill from "./Skill/Skill";
 
 
-function Skills() {
+function Skills(props) {
     return (
         <div className={styles.skills}>
             <div className="container">

@@ -5,9 +5,9 @@ import styles from './MainDescription.module.scss';
 function MainDescription() {
     return (
         <div className={styles.main__description}>
-            <p>Hello!</p>
-            <h1>My name is Vitalii Pidkivka</h1>
-            <p>I'm a front-end developer</p>
+            <p>Hi There</p>
+            <h1>I am <span>Vitalii Pidkivka</span></h1>
+            <p>A front-end developer</p>
         </div>
     );
 }

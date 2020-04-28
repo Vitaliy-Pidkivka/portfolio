@@ -1,14 +1,14 @@
 import React from 'react';
-import styles from './Contacts.module.scss';
+import styles from './Contact.module.scss';
 import Title from "../Shared/Title/Title";
 
 
-function Contacts() {
+function Contact() {
     return (
         <div className={styles['contacts']}>
             <div className="container">
                 <div className={styles.contacts__inner}>
-                    <Title title="Contacts"/>
+                    <Title title="Contact"/>
                     <form action="#" method="Post" className={styles.form}>
                         <input type="text" placeholder="Name" required/>
                         <input type="email" placeholder="Email" required/>
@@ -21,4 +21,4 @@ function Contacts() {
     );
 }
 
-export default Contacts;
+export default Contact;

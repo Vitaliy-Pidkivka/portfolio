@@ -1,11 +1,12 @@
 import React from 'react';
 import styles from './MainAvatar.module.scss';
-
+import  avatar from '../../../assets/images/avatar.jpg'
 
 function MainAvatar() {
     return (
         <div className={styles.main__avatar}>
-            <img src="https://html5css.ru/w3css/img_avatar3.png" alt="avatar"/>
+            <img src={avatar} alt="avatar"/>
+            <span></span>
         </div>
     );
 }

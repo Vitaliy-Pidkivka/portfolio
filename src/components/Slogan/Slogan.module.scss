@@ -1,6 +1,10 @@
 .slogan {
-  min-height: 250px;
-  background-color: #fff6be;
+  padding: 80px 0;
+  @media (max-width: 767px){
+    padding: 30px 0;
+  }
+
+  background-color: #252527;
   &__inner{
     display: flex;
     flex-direction: column;

@@ -17,7 +17,7 @@ function Footer() {
                             <SocialNetworkBtn className={styles['footer__btn']} href="https://linkedin.com" value="Linkedin"/>
                         </div>
                         <p className={styles.footer__copyright}>
-                            &#169; All rights reserved
+                            &#169; 2020 Ukraine, Lviv city, All Rights Reserved.
                         </p>
                     </div>
 

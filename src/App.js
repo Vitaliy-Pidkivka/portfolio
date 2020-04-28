@@ -5,7 +5,7 @@ import Main from "./components/Main/Main";
 import Skills from "./components/Skills/Skills";
 import Projects from "./components/Projects/Projects";
 import Slogan from "./components/Slogan/Slogan";
-import Contacts from "./components/Contacts/Contacts";
+import Contact from "./components/Contacts/Contact";
 import Footer from "./components/Footer/Footer";
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
             <Skills/>
             <Projects/>
             <Slogan/>
-            <Contacts/>
+            <Contact/>
             <Footer/>
         </div>
     );

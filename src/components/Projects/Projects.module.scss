@@ -1,12 +1,10 @@
 .projects {
-  min-height: 100vh;
-  background-color: #ac50b4;
+  background-color: #1f1f20;
   display: flex;
   align-items: center;
-
+  padding: 80px 0;
   @media(max-width: 767px){
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 30px 0;
   }
   &__inner {
   }
@@ -14,9 +12,10 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    align-content: stretch;
     @media(max-width: 767px){
       flex-direction: column;
-
+      align-content: center;
     }
   }
 

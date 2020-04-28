@@ -4,15 +4,18 @@ import LinkBtn from "../../Shared/LinkBtn/LinkBtn";
 
 
 function Project(props) {
-    let {projectLink, project, description} = props;
+    let {projectLink, project, description, image} = props;
     return (
         <div className={styles.project}>
             <div className={styles.project__inner}>
                 <div className={styles.project__img}>
-                    <LinkBtn href={projectLink} value="View"/>
+                    <img src={image} alt="#"/>
                 </div>
-                <h3 className={styles.skill__title}>{project}</h3>
-                <p className={styles.skill__description}>{description}</p>
+                <div className={styles.project__description}>
+                    <h3 className={styles.project__title}>{project}</h3>
+                    <p>{description}</p>
+                    <LinkBtn target={true} href={projectLink} value="View"/>
+                </div>
             </div>
         </div>
     );

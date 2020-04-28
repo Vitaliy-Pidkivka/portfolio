@@ -1,11 +1,10 @@
 .skills {
-  min-height: 100vh;
-  background-color: #7effdf;
+  background-color: #252527;
   display: flex;
   align-items: center;
+  padding: 80px 0;
   @media(max-width: 767px){
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 30px 0;
   }
   &__inner {
   }
