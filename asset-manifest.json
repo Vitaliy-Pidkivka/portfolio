@@ -1,22 +1,27 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.db7895b6.chunk.css",
-    "main.js": "/portfolio/static/js/main.48aa0f41.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.48aa0f41.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.b37861ed.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.b37861ed.js.map",
-    "static/js/2.554497e7.chunk.js": "/portfolio/static/js/2.554497e7.chunk.js",
-    "static/js/2.554497e7.chunk.js.map": "/portfolio/static/js/2.554497e7.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.49e36e87.chunk.css",
+    "main.js": "/portfolio/static/js/main.bbafea3e.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.bbafea3e.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.f18b6ef5.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.f18b6ef5.js.map",
+    "static/js/2.1999c239.chunk.js": "/portfolio/static/js/2.1999c239.chunk.js",
+    "static/js/2.1999c239.chunk.js.map": "/portfolio/static/js/2.1999c239.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.ad5399f6ea24149703fec49b265e93e2.js": "/portfolio/precache-manifest.ad5399f6ea24149703fec49b265e93e2.js",
+    "precache-manifest.073edaa8d80cc1f527f7e2b84e337d4e.js": "/portfolio/precache-manifest.073edaa8d80cc1f527f7e2b84e337d4e.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.db7895b6.chunk.css.map": "/portfolio/static/css/main.db7895b6.chunk.css.map",
-    "static/js/2.554497e7.chunk.js.LICENSE.txt": "/portfolio/static/js/2.554497e7.chunk.js.LICENSE.txt"
+    "static/css/main.49e36e87.chunk.css.map": "/portfolio/static/css/main.49e36e87.chunk.css.map",
+    "static/js/2.1999c239.chunk.js.LICENSE.txt": "/portfolio/static/js/2.1999c239.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/portfolio/static/media/SundayBest.34700c12.woff2",
+    "static/media/avatar.jpg": "/portfolio/static/media/avatar.5c19876b.jpg",
+    "static/media/calculator.png": "/portfolio/static/media/calculator.2c11f111.png",
+    "static/media/todo-list.png": "/portfolio/static/media/todo-list.54275bbf.png",
+    "static/media/zebra.png": "/portfolio/static/media/zebra.eeea1447.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.b37861ed.js",
-    "static/js/2.554497e7.chunk.js",
-    "static/css/main.db7895b6.chunk.css",
-    "static/js/main.48aa0f41.chunk.js"
+    "static/js/runtime-main.f18b6ef5.js",
+    "static/js/2.1999c239.chunk.js",
+    "static/css/main.49e36e87.chunk.css",
+    "static/js/main.bbafea3e.chunk.js"
   ]
 }
