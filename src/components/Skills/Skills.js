@@ -22,7 +22,7 @@ function Skills(props) {
                             description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, recusandae."
                         />
                         <Skill
-                            iconSrc="https://cdn4.iconfinder.com/data/icons/vector-brand-logos/40/Git-512.png"
+                            iconSrc="https://www.stickpng.com/assets/images/5847f981cef1014c0b5e48be.png"
                             skill="Git"
                             description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, recusandae."
                         />
@@ -42,7 +42,7 @@ function Skills(props) {
                             description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, recusandae."
                         />
                         <Skill
-                            iconSrc="https://lh3.googleusercontent.com/proxy/SGsjkfk5t3xh75zSGDI8YMmzxj2avtTXNgVEF0svEqbxpsD1hcl3pESdqV82iMvfIhOMdz2RoycLZqL1Ai_8TqSCHbNhH65HZx8TGFM49qt6FcrIvu7o"
+                            iconSrc="https://webref.ru/assets/images/book/css.png"
                             skill="CSS"
                             description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, recusandae."
                         />

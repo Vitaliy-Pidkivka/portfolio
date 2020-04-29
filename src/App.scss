@@ -40,6 +40,11 @@ ul {
   padding: 0;
 }
 
+html{
+  &.menu-opened{
+    overflow: hidden !important;
+  }
+}
 
 
 

@@ -3,7 +3,7 @@ import styles from './HeaderMenu.module.scss'
 
 function HeaderMenu(props) {
     return (
-        <ul className={styles.header__menu}>
+        <ul className={`${styles.header__menu} ${props.isActive && styles.active}`}>
             <li><a href="#pl">Main
                 <span className={styles.mask}><span>Main</span></span>
                 <span className={styles.mask}><span>Main</span></span>
