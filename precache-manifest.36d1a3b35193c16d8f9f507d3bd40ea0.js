@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0d147732771a4bd4a68812c8998b357c",
+    "revision": "206782d4c4a458137f90eef81f60a84a",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "50cc9a46be81baa3e563",
-    "url": "/portfolio/static/css/main.49e36e87.chunk.css"
+    "revision": "fea6e0642abf250fa93d",
+    "url": "/portfolio/static/css/main.b9e5fa0b.chunk.css"
   },
   {
-    "revision": "e197f44d7bbb97fc8c73",
-    "url": "/portfolio/static/js/2.1999c239.chunk.js"
+    "revision": "a5fdea85e15f687f1de3",
+    "url": "/portfolio/static/js/2.69e23124.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/portfolio/static/js/2.1999c239.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.69e23124.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "50cc9a46be81baa3e563",
-    "url": "/portfolio/static/js/main.bbafea3e.chunk.js"
+    "revision": "fea6e0642abf250fa93d",
+    "url": "/portfolio/static/js/main.33cdb4c6.chunk.js"
   },
   {
     "revision": "ee3d72d161f98a5d4b9d",
@@ -44,15 +44,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/avatar.5c19876b.jpg"
   },
   {
-    "revision": "2c11f1117238db9fdd6204c041a85ba2",
-    "url": "/portfolio/static/media/calculator.2c11f111.png"
+    "revision": "e50c18ce6f0c976ff567e0e69f4530b0",
+    "url": "/portfolio/static/media/calculator.e50c18ce.png"
   },
   {
-    "revision": "54275bbf522ce021c83b80d1b8cffb74",
-    "url": "/portfolio/static/media/todo-list.54275bbf.png"
+    "revision": "122641c3a9f85cf8202c947aea4fddd3",
+    "url": "/portfolio/static/media/counter.122641c3.png"
   },
   {
-    "revision": "eeea14476e05e8cb8a2626ed6ec4a1a1",
-    "url": "/portfolio/static/media/zebra.eeea1447.png"
+    "revision": "367e8aec2a1ff1a6972144c207ec008b",
+    "url": "/portfolio/static/media/todo-list.367e8aec.png"
+  },
+  {
+    "revision": "c196dace4850d0495eb8fc18bced51de",
+    "url": "/portfolio/static/media/zebra.c196dace.png"
   }
 ]);
