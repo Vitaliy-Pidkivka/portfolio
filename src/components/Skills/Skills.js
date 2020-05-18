@@ -42,12 +42,12 @@ function Skills(props) {
                         <Skill
                             iconSrc={gulp}
                             skill="Gulp"
-                            description="Gulp tasks, use it in real projects"
+                            description="Gulp tasks, use in real projects"
                         />
                         <Skill
                             iconSrc={html}
                             skill="HTML5"
-                            description="Semantic layout, W3C validation"
+                            description="Semantic layout, BEM methodology, W3C valid code, pixel perfect markup"
                         />
                         <Skill
                             iconSrc={css}
@@ -57,7 +57,7 @@ function Skills(props) {
                         <Skill
                             iconSrc={bootstrap}
                             skill="Bootstrap"
-                            description="Bootstrap breakpoints\components"
+                            description="Use bootstrap4 more then 6 months in real projects"
                         />
                         <Skill
                             iconSrc={jquery}
