@@ -47,7 +47,7 @@ function Skills(props) {
                         <Skill
                             iconSrc={html}
                             skill="HTML5"
-                            description="Semantic layout"
+                            description="Semantic layout, W3C validation"
                         />
                         <Skill
                             iconSrc={css}
