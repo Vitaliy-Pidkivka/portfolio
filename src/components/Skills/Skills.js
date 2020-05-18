@@ -2,7 +2,15 @@ import React from 'react';
 import styles from './Skills.module.scss';
 import Title from "../Shared/Title/Title";
 import Skill from "./Skill/Skill";
-
+import react from '../../assets/images/ico-react.png'
+import html from '../../assets/images/ico-html.png'
+import css from '../../assets/images/ico-css.png'
+import js from '../../assets/images/ico-js.png'
+import git from '../../assets/images/ico-git.png'
+import gulp from  '../../assets/images/ico-gulp.png'
+import webpack from  '../../assets/images/ico-webpack.png'
+import bootstrap from  '../../assets/images/ico-bootstrap.png'
+import jquery from  '../../assets/images/ico-jquery.png'
 
 function Skills(props) {
     return (
@@ -12,44 +20,49 @@ function Skills(props) {
                     <Title title="Skills"/>
                     <div className={styles.skills__list}>
                         <Skill
-                            iconSrc="https://getdrawings.com/free-icon/react-icon-69.png"
-                            skill="React"
-                            description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, recusandae."
+                            iconSrc={react}
+                            skill="React JS"
+                            description="React, Redux, REST API, Context API, CSS modules"
                         />
                         <Skill
-                            iconSrc="https://b.kisscc0.com/20180815/zlq/kisscc0-computer-icons-logo-brand-javascript-angle-js-5b741783856f77.0690615715343348515466.png"
+                            iconSrc={js}
                             skill="JS"
-                            description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, recusandae."
+                            description="Experience with JS about 9 months. (ES5, ES6)"
                         />
                         <Skill
-                            iconSrc="https://www.stickpng.com/assets/images/5847f981cef1014c0b5e48be.png"
+                            iconSrc={git}
                             skill="Git"
-                            description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, recusandae."
+                            description="Commercial experience with git about 6 months"
                         />
                         <Skill
-                            iconSrc="https://habrastorage.org/webt/k-/tm/2g/k-tm2gvbb_ky6gdrd-tzqrzjkf4.png?v=1"
+                            iconSrc={webpack}
                             skill="Webpack"
-                            description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, recusandae."
+                            description="Only non-commercial experience"
                         />
                         <Skill
-                            iconSrc="https://cdn.iconscout.com/icon/free/png-256/gulp-3-1175163.png"
+                            iconSrc={gulp}
                             skill="Gulp"
-                            description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, recusandae."
+                            description="Gulp tasks, use it in real projects"
                         />
                         <Skill
-                            iconSrc="https://cdn4.iconfinder.com/data/icons/file-extension-names-vol-5-1/512/38-512.png"
-                            skill="HTML"
-                            description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, recusandae."
+                            iconSrc={html}
+                            skill="HTML5"
+                            description="Semantic layout"
                         />
                         <Skill
-                            iconSrc="https://webref.ru/assets/images/book/css.png"
-                            skill="CSS"
-                            description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, recusandae."
+                            iconSrc={css}
+                            skill="CSS3"
+                            description="Sass\Scss, custom animations, responsive\mobile-first layout"
                         />
                         <Skill
-                            iconSrc="https://www.pinclipart.com/picdir/big/35-353932_bootstrap-bootstrap-4-logo-png-clipart.png"
+                            iconSrc={bootstrap}
                             skill="Bootstrap"
-                            description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, recusandae."
+                            description="Bootstrap breakpoints\components"
+                        />
+                        <Skill
+                            iconSrc={jquery}
+                            skill="Jquery"
+                            description="Use jquery more then 6 months in real projects"
                         />
 
                     </div>

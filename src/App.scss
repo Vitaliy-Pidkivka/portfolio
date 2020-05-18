@@ -19,7 +19,9 @@
 html, body, *, *::before, *::after {
   box-sizing: border-box;
 }
-
+body{
+  font-family: cursive;
+}
 .container {
   max-width: 80%;
   width: 100%;
