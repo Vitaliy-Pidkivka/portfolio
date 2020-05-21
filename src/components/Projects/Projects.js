@@ -26,24 +26,24 @@ const state = {
             id: 2,
         },
         {
+            projectLink: 'https://vitaliy-pidkivka.github.io/MoGo/',
+            image: mogo,
+            project: 'Mogo',
+            description: 'Landing page',
+            id: 3,
+        },
+        {
             projectLink: 'https://vitaliy-pidkivka.github.io/counter/',
             image: counter,
             project: 'Counter',
             description: 'React application',
-            id: 3,
+            id: 4,
         },
         {
             projectLink: 'https://vitaliy-pidkivka.github.io/Calculator/',
             image: calculator,
             project: 'Calculator',
             description: 'Bootstrap, JS, CSS application',
-            id: 4,
-        },
-        {
-            projectLink: 'https://vitaliy-pidkivka.github.io/MoGo/',
-            image: mogo,
-            project: 'Mogo',
-            description: 'Landing page',
             id: 5,
         },
         {
