@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.67332003.chunk.css",
-    "main.js": "/portfolio/static/js/main.4f6d500d.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.4f6d500d.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.f81f41fa.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.f81f41fa.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.f18b6ef5.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.f18b6ef5.js.map",
-    "static/js/2.0477012d.chunk.js": "/portfolio/static/js/2.0477012d.chunk.js",
-    "static/js/2.0477012d.chunk.js.map": "/portfolio/static/js/2.0477012d.chunk.js.map",
+    "static/js/2.7de16f5c.chunk.js": "/portfolio/static/js/2.7de16f5c.chunk.js",
+    "static/js/2.7de16f5c.chunk.js.map": "/portfolio/static/js/2.7de16f5c.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.e7c7da51d2271986cc890d7816f5597d.js": "/portfolio/precache-manifest.e7c7da51d2271986cc890d7816f5597d.js",
+    "precache-manifest.450386955079687f012e6e3db0e00222.js": "/portfolio/precache-manifest.450386955079687f012e6e3db0e00222.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/main.67332003.chunk.css.map": "/portfolio/static/css/main.67332003.chunk.css.map",
-    "static/js/2.0477012d.chunk.js.LICENSE.txt": "/portfolio/static/js/2.0477012d.chunk.js.LICENSE.txt",
+    "static/js/2.7de16f5c.chunk.js.LICENSE.txt": "/portfolio/static/js/2.7de16f5c.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/portfolio/static/media/SundayBest.34700c12.woff2",
     "static/media/avatar.jpg": "/portfolio/static/media/avatar.5c19876b.jpg",
     "static/media/calculator.png": "/portfolio/static/media/calculator.e50c18ce.png",
@@ -21,13 +21,14 @@
     "static/media/ico-jquery.png": "/portfolio/static/media/ico-jquery.3420e571.png",
     "static/media/ico-js.png": "/portfolio/static/media/ico-js.aac4650a.png",
     "static/media/ico-react.png": "/portfolio/static/media/ico-react.47ce6e77.png",
+    "static/media/mogo.png": "/portfolio/static/media/mogo.109dd8b7.png",
     "static/media/todo-list.png": "/portfolio/static/media/todo-list.367e8aec.png",
     "static/media/zebra.png": "/portfolio/static/media/zebra.c196dace.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f18b6ef5.js",
-    "static/js/2.0477012d.chunk.js",
+    "static/js/2.7de16f5c.chunk.js",
     "static/css/main.67332003.chunk.css",
-    "static/js/main.4f6d500d.chunk.js"
+    "static/js/main.f81f41fa.chunk.js"
   ]
 }
