@@ -7,6 +7,7 @@ import calculator from '../../assets/images/projects/calculator.png'
 import mogo from '../../assets/images/projects/mogo.png'
 import zebra from '../../assets/images/projects/zebra.png'
 import counter from '../../assets/images/projects/counter.png'
+import advocatus from '../../assets/images/projects/advocatus.png'
 
 const state = {
     projects: [
@@ -52,6 +53,13 @@ const state = {
             project: 'Zebra',
             description: 'Landing page',
             id: 6,
+        },
+        {
+            projectLink: 'https://vitaliy-pidkivka.github.io/Advocatus/',
+            image: advocatus,
+            project: 'Advocatus',
+            description: 'Landing page',
+            id: 7,
         },
     ]
 }
