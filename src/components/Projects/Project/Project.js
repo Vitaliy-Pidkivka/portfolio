@@ -3,8 +3,7 @@ import styles from './Project.module.scss';
 import LinkBtn from "../../Shared/LinkBtn/LinkBtn";
 
 
-function Project(props) {
-    let {projectLink, project, description, image} = props;
+function Project({projectLink, project, description, image}) {
     return (
         <div className={styles.project}>
             <div className={styles.project__inner}>
