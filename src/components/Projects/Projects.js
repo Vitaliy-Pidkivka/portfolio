@@ -16,10 +16,10 @@ class Projects extends React.Component {
     state = {
         projects: [
             {
-                projectLink: 'https://github.com/Vitaliy-Pidkivka/social-network',
+                projectLink: 'https://vitaliy-pidkivka.github.io/social-network/#/profile',
                 image: 'https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg',
                 project: 'Social network',
-                description: 'React SPA',
+                description: 'React SPA with REST API',
                 id: 1,
                 filterValue: 'react',
             },
