@@ -12,7 +12,7 @@ import webpack from  '../../assets/images/ico-webpack.png'
 import bootstrap from  '../../assets/images/ico-bootstrap.png'
 import jquery from  '../../assets/images/ico-jquery.png'
 
-function Skills(props) {
+function Skills() {
     return (
         <div className={styles.skills}>
             <div className="container">
@@ -22,12 +22,13 @@ function Skills(props) {
                         <Skill
                             iconSrc={react}
                             skill="React JS"
-                            description="React, Redux, REST API, Context API, CSS modules"
+                            description="React, Redux, REST API, Context API, CSS modules, Material UI, Styled-component, redux-thunk, redux-form,
+                            reselect, formik, TypeScript(basic)"
                         />
                         <Skill
                             iconSrc={js}
                             skill="JS"
-                            description="Experience with JS about 9 months. (ES5, ES6)"
+                            description="(ES6 - ES9)"
                         />
                         <Skill
                             iconSrc={git}
@@ -37,12 +38,11 @@ function Skills(props) {
                         <Skill
                             iconSrc={webpack}
                             skill="Webpack"
-                            description="Only non-commercial experience"
                         />
                         <Skill
                             iconSrc={gulp}
                             skill="Gulp"
-                            description="Gulp tasks, use in real projects"
+                            description="Gulp tasks"
                         />
                         <Skill
                             iconSrc={html}
@@ -57,12 +57,12 @@ function Skills(props) {
                         <Skill
                             iconSrc={bootstrap}
                             skill="Bootstrap"
-                            description="Use bootstrap4 more then 6 months in real projects"
+                            description="Bootstrap 4"
                         />
                         <Skill
                             iconSrc={jquery}
                             skill="Jquery"
-                            description="Use jquery more then 6 months in real projects"
+                            description=""
                         />
 
                     </div>

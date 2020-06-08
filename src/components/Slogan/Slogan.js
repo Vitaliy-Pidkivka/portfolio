@@ -9,7 +9,7 @@ function Slogan(props) {
         <div className={styles.slogan}>
             <div className="container">
                 <div className={styles.slogan__inner}>
-                    <Title title="Looking offer to remote job"/>
+                    <Title title="Looking offer to job"/>
                    <div className={styles.slogan__btn}>
                        <LinkBtn href='#' value="Hire me"/>
                    </div>
