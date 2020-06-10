@@ -56,11 +56,19 @@ class Projects extends React.Component {
                 filterValue: 'landing',
             },
             {
+                projectLink: 'https://vitaliy-pidkivka.github.io/AVE/',
+                image: advocatus,
+                project: 'AVE',
+                description: 'Landing page',
+                id: 6,
+                filterValue: 'landing',
+            },
+            {
                 projectLink: 'https://vitaliy-pidkivka.github.io/Advocatus/',
                 image: advocatus,
                 project: 'Advocatus',
                 description: 'Landing page',
-                id: 6,
+                id: 7,
                 filterValue: 'landing',
             },
             {
@@ -68,7 +76,7 @@ class Projects extends React.Component {
                 image: privat,
                 project: 'Privat-holidays',
                 description: 'Landing page',
-                id: 7,
+                id: 8,
                 filterValue: 'landing',
             },
             {
@@ -76,7 +84,7 @@ class Projects extends React.Component {
                 image: zebra,
                 project: 'Zebra',
                 description: 'Landing page',
-                id: 8,
+                id: 9,
                 filterValue: 'landing',
             },
         ],
