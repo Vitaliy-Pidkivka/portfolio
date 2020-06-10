@@ -9,6 +9,7 @@ import zebra from '../../assets/images/projects/zebra.png'
 import counter from '../../assets/images/projects/counter.png'
 import advocatus from '../../assets/images/projects/advocatus.png'
 import privat from '../../assets/images/projects/privat-holidays.png'
+import ave from '../../assets/images/projects/ave.png'
 import Button from "../Shared/Button/Button";
 
 
@@ -57,7 +58,7 @@ class Projects extends React.Component {
             },
             {
                 projectLink: 'https://vitaliy-pidkivka.github.io/AVE/',
-                image: advocatus,
+                image: ave,
                 project: 'AVE',
                 description: 'Landing page',
                 id: 6,
