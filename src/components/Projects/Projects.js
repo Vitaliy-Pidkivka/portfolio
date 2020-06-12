@@ -10,6 +10,7 @@ import counter from '../../assets/images/projects/counter.png'
 import advocatus from '../../assets/images/projects/advocatus.png'
 import privat from '../../assets/images/projects/privat-holidays.png'
 import ave from '../../assets/images/projects/ave.png'
+import polind from '../../assets/images/projects/polind.png'
 import Button from "../Shared/Button/Button";
 
 
@@ -49,11 +50,19 @@ class Projects extends React.Component {
                 filterValue: 'react',
             },
             {
+                projectLink: 'https://vitaliy-pidkivka.github.io/Polind/',
+                image: polind,
+                project: 'Polind',
+                description: 'Landing page',
+                id: 5,
+                filterValue: 'landing',
+            },
+            {
                 projectLink: 'https://vitaliy-pidkivka.github.io/MoGo/',
                 image: mogo,
                 project: 'Mogo',
                 description: 'Landing page',
-                id: 5,
+                id: 6,
                 filterValue: 'landing',
             },
             {
@@ -61,7 +70,7 @@ class Projects extends React.Component {
                 image: ave,
                 project: 'AVE',
                 description: 'Landing page',
-                id: 6,
+                id: 7,
                 filterValue: 'landing',
             },
             {
@@ -69,7 +78,7 @@ class Projects extends React.Component {
                 image: advocatus,
                 project: 'Advocatus',
                 description: 'Landing page',
-                id: 7,
+                id: 8,
                 filterValue: 'landing',
             },
             {
@@ -77,7 +86,7 @@ class Projects extends React.Component {
                 image: privat,
                 project: 'Privat-holidays',
                 description: 'Landing page',
-                id: 8,
+                id: 9,
                 filterValue: 'landing',
             },
             {
@@ -85,7 +94,7 @@ class Projects extends React.Component {
                 image: zebra,
                 project: 'Zebra',
                 description: 'Landing page',
-                id: 9,
+                id: 10,
                 filterValue: 'landing',
             },
         ],
