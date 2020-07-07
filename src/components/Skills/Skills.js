@@ -28,16 +28,17 @@ function Skills() {
                         <Skill
                             iconSrc={js}
                             skill="JS"
-                            description="(ES6 - ES9)"
+                            description="ES6 - ES9"
                         />
                         <Skill
                             iconSrc={git}
                             skill="Git"
-                            description="Commercial experience with git about 6 months"
+                            description="Commercial experience with git about 6 months (git + redmine)"
                         />
                         <Skill
                             iconSrc={webpack}
                             skill="Webpack"
+                            description="Basic knowledge"
                         />
                         <Skill
                             iconSrc={gulp}
@@ -62,7 +63,7 @@ function Skills() {
                         <Skill
                             iconSrc={jquery}
                             skill="Jquery"
-                            description=""
+                            description="Fluent user"
                         />
 
                     </div>

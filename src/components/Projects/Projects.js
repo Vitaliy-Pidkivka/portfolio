@@ -21,7 +21,9 @@ class Projects extends React.Component {
                 projectLink: 'https://vitaliy-pidkivka.github.io/social-network/#/profile',
                 image: 'https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg',
                 project: 'Social network',
-                description: 'React SPA with REST API',
+                description: 'Technologies used: React, Redux, React-redux, Redux-thunk, Redux-form, Axios,' +
+                    ' reselect, Typescript, SCSS, REST API',
+
                 id: 1,
                 filterValue: 'react',
             },
@@ -29,8 +31,24 @@ class Projects extends React.Component {
                 projectLink: 'https://vitaliy-pidkivka.github.io/todo-list/',
                 image: todoList,
                 project: 'Todo list',
-                description: 'React application',
+                description: 'Technologies used: React, Redux, React-redux, Redux-thunk, LocalStorage, SCSS',
                 id: 2,
+                filterValue: 'react',
+            },
+            {
+                projectLink: 'https://vitaliy-pidkivka.github.io/blynk',
+                image: 'https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg',
+                project: 'Blynk',
+                description: 'Technologies used: React, Redux, React-redux, Redux-thunk, LocalStorage, SCSS',
+                id: 3,
+                filterValue: 'react',
+            },
+            {
+                projectLink: 'https://vitaliy-pidkivka.github.io/altertech',
+                image: 'https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg',
+                project: 'Altertech',
+                description: 'Technologies used: React, Redux, React-redux, Redux-thunk, LocalStorage, SCSS',
+                id: 4,
                 filterValue: 'react',
             },
             {
@@ -38,7 +56,7 @@ class Projects extends React.Component {
                 image: counter,
                 project: 'Counter',
                 description: 'React application',
-                id: 3,
+                id: 5,
                 filterValue: 'react',
             },
             {
@@ -46,55 +64,55 @@ class Projects extends React.Component {
                 image: calculator,
                 project: 'Calculator',
                 description: 'Bootstrap, JS, CSS application',
-                id: 4,
+                id: 6,
                 filterValue: 'react',
             },
             {
                 projectLink: 'https://vitaliy-pidkivka.github.io/Polind/',
                 image: polind,
                 project: 'Polind',
-                description: 'Landing page',
-                id: 5,
+                description: 'Technologies used: HTML5, CSS3 (css), JS, Jquery',
+                id: 7,
                 filterValue: 'landing',
             },
             {
                 projectLink: 'https://vitaliy-pidkivka.github.io/MoGo/',
                 image: mogo,
                 project: 'Mogo',
-                description: 'Landing page',
-                id: 6,
+                description: 'Technologies used: HTML5, CSS3 (scss), JS, Jquery',
+                id: 8,
                 filterValue: 'landing',
             },
             {
                 projectLink: 'https://vitaliy-pidkivka.github.io/AVE/',
                 image: ave,
                 project: 'AVE',
-                description: 'Landing page',
-                id: 7,
+                description: 'Technologies used: HTML5, CSS3 (scss), JS, Jquery, Jquery validate',
+                id: 9,
                 filterValue: 'landing',
             },
             {
                 projectLink: 'https://vitaliy-pidkivka.github.io/Advocatus/',
                 image: advocatus,
                 project: 'Advocatus',
-                description: 'Landing page',
-                id: 8,
+                description: 'Technologies used: HTML5, CSS3 (scss), JS, Jquery',
+                id: 10,
                 filterValue: 'landing',
             },
             {
                 projectLink: 'https://vitaliy-pidkivka.github.io/Privat-holidays/',
                 image: privat,
                 project: 'Privat-holidays',
-                description: 'Landing page',
-                id: 9,
+                description: 'Technologies used: HTML5, CSS3 (scss), JS, Jquery, Jquery validate, Jquery datepicker',
+                id: 11,
                 filterValue: 'landing',
             },
             {
                 projectLink: 'https://vitaliy-pidkivka.github.io/Zebra/',
                 image: zebra,
                 project: 'Zebra',
-                description: 'Landing page',
-                id: 10,
+                description: 'Technologies used: HTML5, CSS3 (scss), JS, Jquery',
+                id: 12,
                 filterValue: 'landing',
             },
         ],
@@ -131,7 +149,7 @@ class Projects extends React.Component {
                                     value={'All'}
                                     active={this.state.filter === "all"}/>
                             <Button onClick={this.onReactFilterClick}
-                                    value={'React application'}
+                                    value={'React projects'}
                                     active={this.state.filter === "react"}/>
                             <Button onClick={this.onLandingFilterClick}
                                     value={'Landing page'}
