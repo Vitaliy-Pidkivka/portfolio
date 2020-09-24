@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fa9fa1aec032605f5e9133112d52121c",
+    "revision": "2da0ca45ecd5bdc319b5419165739364",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "c53111b2504bd63ad996",
-    "url": "/portfolio/static/css/main.318b9614.chunk.css"
+    "revision": "5c166797eda065549f8d",
+    "url": "/portfolio/static/css/main.ee4922a1.chunk.css"
   },
   {
-    "revision": "09f0b0e6e4979fc13cb5",
-    "url": "/portfolio/static/js/2.6e683cb2.chunk.js"
+    "revision": "a8a49c6c45bed38516aa",
+    "url": "/portfolio/static/js/2.9496c38b.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/portfolio/static/js/2.6e683cb2.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.9496c38b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c53111b2504bd63ad996",
-    "url": "/portfolio/static/js/main.9c8816e4.chunk.js"
+    "revision": "5c166797eda065549f8d",
+    "url": "/portfolio/static/js/main.af320eec.chunk.js"
   },
   {
     "revision": "ee3d72d161f98a5d4b9d",
@@ -58,6 +58,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "122641c3a9f85cf8202c947aea4fddd3",
     "url": "/portfolio/static/media/counter.122641c3.png"
+  },
+  {
+    "revision": "3ca9372584535243b0f2bb9feebf91fa",
+    "url": "/portfolio/static/media/i-decision-games.3ca93725.png"
   },
   {
     "revision": "7384412324c769e447d3c4f86e9ff068",
