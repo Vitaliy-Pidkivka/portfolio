@@ -24,7 +24,6 @@ class Projects extends React.Component {
                 project: 'Social network',
                 description: 'Technologies used: React, Redux, React-redux, Redux-thunk, Redux-form, Axios,' +
                     ' reselect, Typescript, SCSS, REST API',
-
                 id: 1,
                 filterValue: 'react',
             },
@@ -173,7 +172,7 @@ class Projects extends React.Component {
                                     default: { return true }
                                 }
                             })
-                                .map(project => <Project {...project} />)
+                                .map(project => <Project key={project.id} {...project} />)
                             }
                         </div>
                     </div>
