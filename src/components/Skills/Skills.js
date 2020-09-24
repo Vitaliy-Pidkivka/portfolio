@@ -22,28 +22,28 @@ function Skills() {
                         <Skill
                             iconSrc={react}
                             skill="React JS"
-                            description="React, Redux, REST API, Context API, CSS modules, Material UI, Styled-component, redux-thunk, redux-form,
-                            reselect, formik, TypeScript(basic)"
+                            description="React, react hooks, Redux/MobX, REST API, Context API, CSS modules, Material UI, Styled-component, redux-thunk, redux-form,
+                            reselect, formik, TypeScript, NextJs(basic)"
                         />
                         <Skill
                             iconSrc={js}
                             skill="JS"
-                            description="ES6 - ES9"
+                            description="ES6+"
                         />
                         <Skill
                             iconSrc={git}
                             skill="Git"
-                            description="Commercial experience with git about 6 months (git + redmine)"
+                            description="git + redmine"
                         />
                         <Skill
                             iconSrc={webpack}
                             skill="Webpack"
-                            description="Basic knowledge"
+                            description=""
                         />
                         <Skill
                             iconSrc={gulp}
                             skill="Gulp"
-                            description="Gulp tasks"
+                            description=""
                         />
                         <Skill
                             iconSrc={html}

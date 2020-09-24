@@ -3,6 +3,7 @@ import styles from './Projects.module.scss';
 import Title from "../Shared/Title/Title";
 import Project from "./Project/Project";
 import todoList from '../../assets/images/projects/todo-list.png'
+import iDecision from '../../assets/images/projects/i-decision-games.png'
 import calculator from '../../assets/images/projects/calculator.png'
 import mogo from '../../assets/images/projects/mogo.png'
 import zebra from '../../assets/images/projects/zebra.png'
@@ -36,11 +37,19 @@ class Projects extends React.Component {
                 filterValue: 'react',
             },
             {
+                projectLink: 'https://vitaliy-pidkivka.github.io/i-decision-games/',
+                image: iDecision,
+                project: 'i-decision-games',
+                description: 'Technologies used: React, MobX, Axios, Matherial-Ui, SCSS, Rest API',
+                id: 3,
+                filterValue: 'react',
+            },
+            {
                 projectLink: 'https://vitaliy-pidkivka.github.io/blynk',
                 image: 'https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg',
                 project: 'Blynk',
                 description: 'Technologies used: React, Redux, React-redux, Redux-thunk, LocalStorage, SCSS',
-                id: 3,
+                id: 4,
                 filterValue: 'react',
             },
             {
@@ -48,7 +57,7 @@ class Projects extends React.Component {
                 image: 'https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg',
                 project: 'Altertech',
                 description: 'Technologies used: React, Redux, React-redux, Redux-thunk, LocalStorage, SCSS',
-                id: 4,
+                id: 5,
                 filterValue: 'react',
             },
             {
@@ -56,7 +65,7 @@ class Projects extends React.Component {
                 image: counter,
                 project: 'Counter',
                 description: 'React application',
-                id: 5,
+                id: 6,
                 filterValue: 'react',
             },
             {
@@ -64,7 +73,7 @@ class Projects extends React.Component {
                 image: calculator,
                 project: 'Calculator',
                 description: 'Bootstrap, JS, CSS application',
-                id: 6,
+                id: 7,
                 filterValue: 'react',
             },
             {
@@ -72,7 +81,7 @@ class Projects extends React.Component {
                 image: polind,
                 project: 'Polind',
                 description: 'Technologies used: HTML5, CSS3 (css), JS, Jquery',
-                id: 7,
+                id: 8,
                 filterValue: 'landing',
             },
             {
@@ -80,7 +89,7 @@ class Projects extends React.Component {
                 image: mogo,
                 project: 'Mogo',
                 description: 'Technologies used: HTML5, CSS3 (scss), JS, Jquery',
-                id: 8,
+                id: 9,
                 filterValue: 'landing',
             },
             {
@@ -88,7 +97,7 @@ class Projects extends React.Component {
                 image: ave,
                 project: 'AVE',
                 description: 'Technologies used: HTML5, CSS3 (scss), JS, Jquery, Jquery validate',
-                id: 9,
+                id: 10,
                 filterValue: 'landing',
             },
             {
@@ -96,7 +105,7 @@ class Projects extends React.Component {
                 image: advocatus,
                 project: 'Advocatus',
                 description: 'Technologies used: HTML5, CSS3 (scss), JS, Jquery',
-                id: 10,
+                id: 11,
                 filterValue: 'landing',
             },
             {
@@ -104,7 +113,7 @@ class Projects extends React.Component {
                 image: privat,
                 project: 'Privat-holidays',
                 description: 'Technologies used: HTML5, CSS3 (scss), JS, Jquery, Jquery validate, Jquery datepicker',
-                id: 11,
+                id: 12,
                 filterValue: 'landing',
             },
             {
@@ -112,7 +121,7 @@ class Projects extends React.Component {
                 image: zebra,
                 project: 'Zebra',
                 description: 'Technologies used: HTML5, CSS3 (scss), JS, Jquery',
-                id: 12,
+                id: 13,
                 filterValue: 'landing',
             },
         ],
