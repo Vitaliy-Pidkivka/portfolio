@@ -3,6 +3,7 @@ import styles from './Projects.module.scss';
 import Title from "../Shared/Title/Title";
 import Project from "./Project/Project";
 import todoList from '../../assets/images/projects/todo-list.png'
+import socialNetwork from '../../assets/images/projects/social-network.png'
 import iDecision from '../../assets/images/projects/i-decision-games.png'
 import calculator from '../../assets/images/projects/calculator.png'
 import mogo from '../../assets/images/projects/mogo.png'
@@ -12,6 +13,7 @@ import advocatus from '../../assets/images/projects/advocatus.png'
 import privat from '../../assets/images/projects/privat-holidays.png'
 import ave from '../../assets/images/projects/ave.png'
 import polind from '../../assets/images/projects/polind.png'
+import discord from '../../assets/images/projects/discord-clone.png'
 import Button from "../Shared/Button/Button";
 
 
@@ -20,7 +22,7 @@ class Projects extends React.Component {
         projects: [
             {
                 projectLink: 'https://vitaliy-pidkivka.github.io/social-network/#/profile',
-                image: 'https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg',
+                image: socialNetwork,
                 project: 'Social network',
                 description: 'Technologies used: React, Redux, React-redux, Redux-thunk, Redux-form, Axios,' +
                     ' reselect, Typescript, SCSS, REST API',
@@ -28,11 +30,19 @@ class Projects extends React.Component {
                 filterValue: 'react',
             },
             {
+                projectLink: 'https://discord-clone-redux-57a28.web.app/',
+                image: discord,
+                project: 'discord-clone',
+                description: 'Technologies used: React, Redux, Matherial-Ui, SCSS, firebase',
+                id: 2,
+                filterValue: 'react',
+            },
+            {
                 projectLink: 'https://vitaliy-pidkivka.github.io/todo-list/',
                 image: todoList,
                 project: 'Todo list',
                 description: 'Technologies used: React, Redux, React-redux, Redux-thunk, LocalStorage, SCSS',
-                id: 2,
+                id: 3,
                 filterValue: 'react',
             },
             {
@@ -48,7 +58,7 @@ class Projects extends React.Component {
                 image: 'https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg',
                 project: 'Blynk',
                 description: 'Technologies used: React, Redux, React-redux, Redux-thunk, LocalStorage, SCSS',
-                id: 4,
+                id: 5,
                 filterValue: 'react',
             },
             {
@@ -56,7 +66,7 @@ class Projects extends React.Component {
                 image: 'https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg',
                 project: 'Altertech',
                 description: 'Technologies used: React, Redux, React-redux, Redux-thunk, LocalStorage, SCSS',
-                id: 5,
+                id: 6,
                 filterValue: 'react',
             },
             {
@@ -64,7 +74,7 @@ class Projects extends React.Component {
                 image: counter,
                 project: 'Counter',
                 description: 'React application',
-                id: 6,
+                id: 7,
                 filterValue: 'react',
             },
             {
@@ -72,39 +82,39 @@ class Projects extends React.Component {
                 image: calculator,
                 project: 'Calculator',
                 description: 'Bootstrap, JS, CSS application',
-                id: 7,
+                id: 8,
                 filterValue: 'react',
             },
             {
                 projectLink: 'https://vitaliy-pidkivka.github.io/Polind/',
                 image: polind,
                 project: 'Polind',
-                description: 'Technologies used: HTML5, CSS3 (css), JS, Jquery',
-                id: 8,
+                description: 'Technologies used: HTML5, SCSS, JS, Jquery',
+                id: 9,
                 filterValue: 'landing',
             },
             {
                 projectLink: 'https://vitaliy-pidkivka.github.io/MoGo/',
                 image: mogo,
                 project: 'Mogo',
-                description: 'Technologies used: HTML5, CSS3 (scss), JS, Jquery',
-                id: 9,
+                description: 'Technologies used: HTML5, CSS, JS, Jquery',
+                id: 10,
                 filterValue: 'landing',
             },
             {
                 projectLink: 'https://vitaliy-pidkivka.github.io/AVE/',
                 image: ave,
                 project: 'AVE',
-                description: 'Technologies used: HTML5, CSS3 (scss), JS, Jquery, Jquery validate',
-                id: 10,
+                description: 'Technologies used: HTML5, SCSS, JS, Jquery, Jquery validate',
+                id: 11,
                 filterValue: 'landing',
             },
             {
                 projectLink: 'https://vitaliy-pidkivka.github.io/Advocatus/',
                 image: advocatus,
                 project: 'Advocatus',
-                description: 'Technologies used: HTML5, CSS3 (scss), JS, Jquery',
-                id: 11,
+                description: 'Technologies used: HTML5, SCSS, JS, Jquery',
+                id: 12,
                 filterValue: 'landing',
             },
             {
@@ -112,7 +122,7 @@ class Projects extends React.Component {
                 image: privat,
                 project: 'Privat-holidays',
                 description: 'Technologies used: HTML5, CSS3 (scss), JS, Jquery, Jquery validate, Jquery datepicker',
-                id: 12,
+                id: 13,
                 filterValue: 'landing',
             },
             {
@@ -120,7 +130,7 @@ class Projects extends React.Component {
                 image: zebra,
                 project: 'Zebra',
                 description: 'Technologies used: HTML5, CSS3 (scss), JS, Jquery',
-                id: 13,
+                id: 14,
                 filterValue: 'landing',
             },
         ],
