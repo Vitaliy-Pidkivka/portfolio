@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "731997c2557500a2f508f4e63ed2327e",
+    "revision": "b211a5612de09dbbdfe8a8d021f09f7b",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "cadb0682dc4422b910d3",
+    "revision": "871ad3f3d2a76d2918f1",
     "url": "/portfolio/static/css/main.bfac519c.chunk.css"
   },
   {
-    "revision": "ca2a7ff228ed8f65491c",
-    "url": "/portfolio/static/js/2.3b4fcf07.chunk.js"
+    "revision": "1732b543e4595a447e70",
+    "url": "/portfolio/static/js/2.6347ecc0.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/portfolio/static/js/2.3b4fcf07.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.6347ecc0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cadb0682dc4422b910d3",
-    "url": "/portfolio/static/js/main.0aa0a50a.chunk.js"
+    "revision": "871ad3f3d2a76d2918f1",
+    "url": "/portfolio/static/js/main.aceb09e5.chunk.js"
   },
   {
     "revision": "ee3d72d161f98a5d4b9d",
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/advocatus.4455960f.png"
   },
   {
-    "revision": "5c19876bafd529c26a037edb8f801911",
-    "url": "/portfolio/static/media/avatar.5c19876b.jpg"
+    "revision": "bde7edb60f51abeffc9bc44de96b7e5e",
+    "url": "/portfolio/static/media/avatar.bde7edb6.jpg"
   },
   {
     "revision": "ee19b42d2239024155944f7c570bb7f2",
@@ -58,6 +58,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "122641c3a9f85cf8202c947aea4fddd3",
     "url": "/portfolio/static/media/counter.122641c3.png"
+  },
+  {
+    "revision": "843688ad7206ad012048ee0fa5f0d748",
+    "url": "/portfolio/static/media/discord-clone.843688ad.png"
   },
   {
     "revision": "3ca9372584535243b0f2bb9feebf91fa",
@@ -94,6 +98,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a022edcd9f96c35ead5aed5f29d300c6",
     "url": "/portfolio/static/media/privat-holidays.a022edcd.png"
+  },
+  {
+    "revision": "6b571626d95a872b12df544c93938a4e",
+    "url": "/portfolio/static/media/social-network.6b571626.png"
   },
   {
     "revision": "367e8aec2a1ff1a6972144c207ec008b",
