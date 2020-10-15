@@ -50,7 +50,7 @@ class Projects extends React.Component {
                 image: iDecision,
                 project: 'i-decision-games',
                 description: 'Technologies used: React, MobX, Axios, Matherial-Ui, SCSS, Rest API',
-                id: 3,
+                id: 4,
                 filterValue: 'react',
             },
             {
