@@ -14,6 +14,7 @@ import privat from '../../assets/images/projects/privat-holidays.png'
 import ave from '../../assets/images/projects/ave.png'
 import polind from '../../assets/images/projects/polind.png'
 import discord from '../../assets/images/projects/discord-clone.png'
+import essential from '../../assets/images/projects/Essential.png'
 import Button from "../Shared/Button/Button";
 
 
@@ -84,21 +85,29 @@ class Projects extends React.Component {
                 description: 'Bootstrap, JS, CSS application',
                 id: 8,
                 filterValue: 'react',
+			},
+			{
+                projectLink: 'https://vitaliy-pidkivka.github.io/Essential-test/',
+                image: essential,
+                project: 'Essential-test',
+                description: 'Technologies used: HTML5, CSS, JS, Jquery',
+                id: 9,
+                filterValue: 'landing',
             },
             {
                 projectLink: 'https://vitaliy-pidkivka.github.io/Polind/',
                 image: polind,
                 project: 'Polind',
                 description: 'Technologies used: HTML5, SCSS, JS, Jquery',
-                id: 9,
+                id: 10,
                 filterValue: 'landing',
-            },
+			},
             {
                 projectLink: 'https://vitaliy-pidkivka.github.io/MoGo/',
                 image: mogo,
                 project: 'Mogo',
                 description: 'Technologies used: HTML5, CSS, JS, Jquery',
-                id: 10,
+                id: 11,
                 filterValue: 'landing',
             },
             {
@@ -106,7 +115,7 @@ class Projects extends React.Component {
                 image: ave,
                 project: 'AVE',
                 description: 'Technologies used: HTML5, SCSS, JS, Jquery, Jquery validate',
-                id: 11,
+                id: 12,
                 filterValue: 'landing',
             },
             {
@@ -114,7 +123,7 @@ class Projects extends React.Component {
                 image: advocatus,
                 project: 'Advocatus',
                 description: 'Technologies used: HTML5, SCSS, JS, Jquery',
-                id: 12,
+                id: 13,
                 filterValue: 'landing',
             },
             {
@@ -122,7 +131,7 @@ class Projects extends React.Component {
                 image: privat,
                 project: 'Privat-holidays',
                 description: 'Technologies used: HTML5, CSS3 (scss), JS, Jquery, Jquery validate, Jquery datepicker',
-                id: 13,
+                id: 14,
                 filterValue: 'landing',
             },
             {
@@ -130,29 +139,14 @@ class Projects extends React.Component {
                 image: zebra,
                 project: 'Zebra',
                 description: 'Technologies used: HTML5, CSS3 (scss), JS, Jquery',
-                id: 14,
+                id: 15,
                 filterValue: 'landing',
             },
         ],
         filter: 'all',
     }
-    onAllFilterClick = () => {
-        this.setState({
-            ...this.state,
-            filter: 'all'
-        })
-    }
-    onReactFilterClick = () => {
-        this.setState({
-            ...this.state,
-            filter: 'react'
-        })
-    }
-    onLandingFilterClick = () => {
-        this.setState({
-            ...this.state,
-            filter: 'landing'
-        })
+    onFilterClick = (filter) => {
+        this.setState({...this.state, filter })
     }
 
     render() {
@@ -163,13 +157,13 @@ class Projects extends React.Component {
                     <div className={styles.projects__inner}>
                         <Title title="My works"/>
                         <div className={styles.buttons}>
-                            <Button onClick={this.onAllFilterClick}
+                            <Button onClick={()=> this.onFilterClick('all')}
                                     value={'All'}
                                     active={this.state.filter === "all"}/>
-                            <Button onClick={this.onReactFilterClick}
+                            <Button onClick={()=> this.onFilterClick('react')}
                                     value={'React projects'}
                                     active={this.state.filter === "react"}/>
-                            <Button onClick={this.onLandingFilterClick}
+                            <Button onClick={()=> this.onFilterClick('landing')}
                                     value={'Landing page'}
                                     active={this.state.filter === "landing"}/>
                         </div>
